@@ -1,0 +1,21 @@
+body {
+    font-family: monospace, fantasy;
+    font-size: 16px;
+}
+
+h1, h2 {
+    color: hsla(134, 100%, 43%, 0.71);
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    text-align: justify;
+}
