@@ -1,0 +1,19 @@
+{
+  "name": "rrwwproject",
+  "version": "1.0.0",
+  "description": "Basic HTML5 and CSS3 course on Udemy by Jonas Schmedtmann - SOLIDIFYING KNOWLEDGE.",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files "*.css *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubfolta/BuildResponsiveRealWorldWebsites.git"
+  },
+  "author": "Jakub Folta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakubfolta/BuildResponsiveRealWorldWebsites/issues"
+  },
+  "homepage": "https://github.com/jakubfolta/BuildResponsiveRealWorldWebsites#readme"
+}
