@@ -57,6 +57,7 @@ h1 {
   background-color: hsl(28, 79%, 51%);
   border: 1px solid hsl(28, 79%, 51%);
   color: hsl(0, 0%, 100%);
+  margin-right: 15px;
 }
 
 .btn-ghost:link,
