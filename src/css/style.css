@@ -19,10 +19,34 @@ html {
 }
 
 header {
-  background: hsl(121, 100%, 47%) url("img/hero.jpg") center/cover;
+  background: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)), url("img/hero.jpg") center/cover;
   height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
   margin: 0;
+  color: hsl(0, 0%, 100%);
+  font-weight: normal;
+  font-size: 240%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.btn-full {
+  background-color: hsl(28, 79%, 51%);
 }
