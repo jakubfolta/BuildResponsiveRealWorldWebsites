@@ -1,3 +1,7 @@
+/******************************************************/
+/* BASIC SETUP */
+/******************************************************/
+
 * {
   margin: 0;
   padding: 0;
@@ -13,23 +17,16 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/******************************************************/
+/* REUSABLE COMPONENTS */
+/******************************************************/
+
 .row {
   margin: 0 auto;
   max-width: 1140px;
 }
 
-header {
-  background: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)), url("img/hero.jpg") center/cover;
-  height: 100vh;
-}
-
-.hero-text-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
+/* HEADINGS */
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -41,6 +38,7 @@ h1 {
   word-spacing: 4px;
 }
 
+/* BUTTONS */
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -80,4 +78,54 @@ h1 {
 .btn-ghost:visited {
   border: 1px solid hsl(28, 80%, 45%);
   color: hsl(0, 0%, 100%);
+}
+
+/******************************************************/
+/* HEADER */
+/******************************************************/
+
+header {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)), url("img/hero.jpg") center/cover;
+  height: 100vh;
+}
+
+.hero-text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-top: 20px;
+}
+
+.main-nav {
+  list-style: none;
+  float: right;
+  margin-top: 55px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 1px solid hsl(28, 79%, 51%);
 }
