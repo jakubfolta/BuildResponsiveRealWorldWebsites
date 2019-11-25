@@ -12,3 +12,17 @@ html {
   font-weight: 300;
   text-rendering: optimizeLegibility;
 }
+
+.row {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+header {
+  background: hsl(121, 100%, 47%) url("img/hero.jpg") center/cover;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
