@@ -48,6 +48,7 @@ h1 {
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
+  transition: 0.2s;
 }
 
 
@@ -67,4 +68,15 @@ h1 {
 .btn:hover,
 .btn:active {
   background-color: hsl(28, 80%, 45%);
+}
+
+.btn-full:link,
+.btn-full:visited {
+  border: 1px solid hsl(28, 80%, 45%);
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid hsl(28, 80%, 45%);
+  color: hsl(0, 0%, 100%);
 }
