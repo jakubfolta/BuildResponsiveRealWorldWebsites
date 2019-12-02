@@ -188,6 +188,11 @@ header {
 /******************************************************/
 /* MEALS */
 /******************************************************/
+
+.section-meals {
+  padding: 0;
+}
+
 .meals-showcase {
   width: 100%;
   list-style: none;
@@ -202,9 +207,15 @@ header {
 .meal-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
 }
 
 .meal-photo img {
   width: 100%;
   height: auto;
+  transform: scale(1.15);
+}
+
+.meal-photo img:hover {
+  transform: scale(1);
 }
