@@ -58,8 +58,8 @@ h2 {
   margin-bottom: 30px;
   letter-spacing: 1px;
 }
-
 h3 {
+
   font-size: 110%;
   margin-bottom: 15px;
 }
@@ -122,6 +122,7 @@ h2:after {
 .btn:hover,
 .btn:active {
   background-color: hsl(28, 80%, 45%);
+  transform: translateY(-3px);
 }
 
 .btn-full:link,
@@ -140,7 +141,7 @@ h2:after {
 /******************************************************/
 
 header {
-  background: linear-gradient(hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 0%, 0.7)), url("img/hero.jpg") center/cover;
+  background: linear-gradient(hsla(0, 0%, 0%, .7), hsla(0, 0%, 0%, 0.7)), url("img/hero.jpg") center/cover;
   height: 100vh;
 }
 
@@ -156,6 +157,7 @@ header {
   width: 100px;
   float: left;
   margin-top: 20px;
+  margin-left: 10px;
 }
 
 .main-nav {
@@ -167,6 +169,10 @@ header {
 .main-nav li {
   display: inline-block;
   margin-left: 40px;
+}
+
+.main-nav li:nth-last-child(1) {
+  margin-right: 10px;
 }
 
 .main-nav li a:link,
@@ -229,5 +235,5 @@ header {
 
 .meal-photo img:hover {
   opacity: 1;
-  transform: scale(1.05);
+  transform: scale(1.07);
 }
