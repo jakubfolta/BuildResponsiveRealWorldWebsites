@@ -17,6 +17,13 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 /******************************************************/
 /* REUSABLE COMPONENTS */
 /******************************************************/
@@ -91,6 +98,18 @@ h2:after {
   display: block;
   font-size: 350%;
   color: hsl(28, 79%, 51%);
+}
+
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: hsl(28, 79%, 51%);
+  font-size: 120%;
+  margin-right: 10px;
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -4px;
 }
 
 /* BUTTONS */
@@ -236,4 +255,74 @@ header {
 .meal-photo img:hover {
   opacity: 1;
   transform: scale(1.07);
+}
+
+/******************************************************/
+/* HOW IT WORKS */
+/******************************************************/
+
+.section-steps {
+  background: hsl(0, 0%, 91%);
+}
+
+.steps-box:first-child {
+  text-align: right;
+  padding-right: 3%;
+  margin-top: 30px;
+}
+
+.steps-box:last-child {
+  padding-left: 3%;
+  margin-top: 70px;
+}
+
+.app-screen {
+  width: 40%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 80px;
+}
+
+.works-step div {
+  color: hsl(28, 79%, 51%);
+  border: 2px solid hsl(28, 79%, 51%);
+  display: inline-block;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 150%;
+  float: left;
+  margin-right: 25px;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/******************************************************/
+/* CITIES */
+/******************************************************/
+
+.city {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.city-feature a {
+  text-decoration: none;
+  color: hsl(28, 79%, 51%);
 }
