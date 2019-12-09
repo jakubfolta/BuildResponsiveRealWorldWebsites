@@ -94,6 +94,7 @@ h2:after {
 }
 
 /* ICONS */
+
 .icon-big {
   display: block;
   font-size: 350%;
@@ -112,7 +113,25 @@ h2:after {
   margin-top: -4px;
 }
 
+/* LINKS */
+
+a:link,
+a:visited {
+  color: hsl(28, 79%, 51%);
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid hsl(28, 79%, 51%);
+  transition: .2s;
+}
+
+a:hover,
+a:active {
+  color: hsl(0, 0%, 33%);
+  border-bottom: 1px solid transparent;
+}
+
 /* BUTTONS */
+
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -302,6 +321,11 @@ header {
   margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+  border: none;
+}
+
 .btn-app img {
   height: 50px;
   width: auto;
@@ -322,7 +346,3 @@ header {
   margin-bottom: 5px;
 }
 
-.city-feature a {
-  text-decoration: none;
-  color: hsl(28, 79%, 51%);
-}
