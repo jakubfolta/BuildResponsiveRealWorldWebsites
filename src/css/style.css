@@ -335,3 +335,14 @@ header {
 /******************************************************/
 /* CITIES */
 /******************************************************/
+
+.city {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature:not(:last-child) {
+  margin-bottom: 5px;
+}
+
