@@ -101,6 +101,13 @@ h2:after {
   color: hsl(28, 79%, 51%);
 }
 
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: hsl(28, 79%, 51%);
+  
+}
 
 /* LINKS */
 
