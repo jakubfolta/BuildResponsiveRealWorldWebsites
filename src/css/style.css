@@ -101,17 +101,6 @@ h2:after {
   color: hsl(28, 79%, 51%);
 }
 
-.icon-small {
-  display: inline-block;
-  width: 30px;
-  text-align: center;
-  color: hsl(28, 79%, 51%);
-  font-size: 120%;
-  margin-right: 10px;
-  line-height: 120%;
-  vertical-align: middle;
-  margin-top: -4px;
-}
 
 /* LINKS */
 
