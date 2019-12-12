@@ -71,7 +71,7 @@ h3 {
   margin-bottom: 15px;
 }
 
-h2:after {
+h2::after {
   display: block;
   height: 2px;
   background-color: hsl(28, 79%, 51%);
@@ -357,10 +357,22 @@ header {
   background-attachment: fixed;
 }
 
+blockquote::before {
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -3px;
+}
+
 blockquote {
+  margin-top: 40px;
+  position: relative;
   padding: 2%;
   font-style: italic;
   line-height: 145%;
+
 }
 
 cite {
@@ -370,7 +382,8 @@ cite {
 }
 
 cite img {
-  height: 50px;
+  height: 45px;
   border-radius: 50%;
   margin-right: 10px;
+  vertical-align: middle;
 }
