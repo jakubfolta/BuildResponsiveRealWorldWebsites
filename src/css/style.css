@@ -181,6 +181,7 @@ a:active {
 header {
   background: linear-gradient(hsla(0, 0%, 0%, .7), hsla(0, 0%, 0%, 0.7)), url("img/hero.jpg") center/cover;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -346,4 +347,17 @@ header {
   margin-bottom: 5px;
 }
 
+/******************************************************/
+/* TESTIMONIALS */
+/******************************************************/
 
+.section-testimonials {
+  background: linear-gradient(hsla(0, 0%, 0%, .8), hsla(0, 0%, 0%, .8)), url(./img/back-customers.jpg) center/cover;
+  color: hsl(0, 0%, 100%);
+  background-attachment: fixed;
+}
+
+.blockquote {
+  padding: 2%;
+  font-style: italic;
+}
