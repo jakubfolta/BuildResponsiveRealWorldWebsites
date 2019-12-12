@@ -168,8 +168,8 @@ a:active {
   border: 1px solid hsl(28, 80%, 45%);
 }
 
-.btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:hover,
+.btn-ghost:active {
   border: 1px solid hsl(28, 80%, 45%);
   color: hsl(0, 0%, 100%);
 }
