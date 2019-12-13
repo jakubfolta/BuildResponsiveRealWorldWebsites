@@ -282,7 +282,7 @@ header {
 /******************************************************/
 
 .section-steps {
-  background: hsl(0, 0%, 91%);
+  background: hsl(0, 0%, 87%);
 }
 
 .steps-box:first-child {
@@ -393,7 +393,7 @@ cite img {
 /******************************************************/
 
 .section-plans {
-  background: hsl(0, 0%, 91%);
+  background: hsl(0, 0%, 87%);
 }
 
 .plan-box {
@@ -401,11 +401,23 @@ cite img {
   border-radius: 5px;
   width: 90%;
   margin-left: 5%;
+  box-shadow: 0 2px 2px hsl(0, 0%, 71%);
 }
 
 .plan-box div {
   padding: 15px;
   border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+.plan-box div:first-child {
+  background: hsl(0, 0%, 97%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: none;
 }
 
 .plan-price {
@@ -422,4 +434,8 @@ cite img {
 
 .plan-price-meal {
   font-size: 80%;
+}
+
+.plan-box ul {
+  list-style: none;
 }
