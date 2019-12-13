@@ -412,6 +412,12 @@ cite img {
   font-size: 300%;
   margin-bottom: 10px;
   font-weight: 100;
+  color: hsl(28, 79%, 51%);
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 300;
 }
 
 .plan-price-meal {
