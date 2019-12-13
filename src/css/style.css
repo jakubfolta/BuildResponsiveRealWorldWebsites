@@ -402,3 +402,18 @@ cite img {
   width: 90%;
   margin-left: 5%;
 }
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+}
