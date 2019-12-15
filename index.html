@@ -334,7 +334,7 @@
         <form method="post" action="#" class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">
-              <label>Name</label>
+              <label for="name">Name</label>
             </div>
             <div class="col span-2-of-3">
               <input type="text" name="name" id="name" placeholder="Your name" required/>
@@ -342,7 +342,7 @@
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label>Email</label>
+              <label for="email">Email</label>
             </div>
             <div class="col span-2-of-3">
               <input type="email" name="email" id="email" placeholder="Your email" required/>
@@ -350,11 +350,11 @@
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label>How did you find us?</label>
+              <label for="find-us">How did you find us?</label>
             </div>
             <div class="col span-2-of-3">
               <select name="find-us" id="find-us">
-                <option value="friends">Friends</option>
+                <option value="friends" selected>Friends</option>
                 <option value="search">Search engine</option>
                 <option value="ad">Advertisement</option>
                 <option value="other">Other</option>
@@ -363,18 +363,26 @@
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label>Name</label>
+              <label>Newsletter</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="text" name="name" id="name" placeholder="Your name" required/>
+              <input type="checkbox" name="news" id="news" checked/>Yes,please
             </div>
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label>Name</label>
+              <label>Drop us a line</label>
             </div>
             <div class="col span-2-of-3">
-              <input type="text" name="name" id="name" placeholder="Your name" required/>
+              <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="Send it!" />
             </div>
           </div>
         </form>
