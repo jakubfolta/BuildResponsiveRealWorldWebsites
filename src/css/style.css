@@ -474,3 +474,31 @@ input[type=checkbox] {
 *:focus {
   outline: none;
 }
+
+/******************************************************/
+/* FOOTER */
+/******************************************************/
+
+footer {
+  background: hsl(0, 0%, 29%);
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-links li:last-child {
+  margin-right: 0;
+}
