@@ -8,13 +8,15 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: hsl(0, 0%, 100%);
   color: hsl(0, 0%, 33%);
   font-family: 'Lato', 'Arial', 'sans-serif';
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix:before,
@@ -324,10 +326,10 @@ header {
   width: 55px;
   height: 55px;
   text-align: center;
-  line-height: 50px;
   font-size: 150%;
   float: left;
   margin-right: 25px;
+  padding: 5px;
 }
 
 .btn-app:link,
