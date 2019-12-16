@@ -133,7 +133,8 @@ a:active {
 /* BUTTONS */
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -144,7 +145,8 @@ a:active {
 
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
   background-color: hsl(28, 79%, 51%);
   border: 1px solid hsl(28, 79%, 51%);
   color: hsl(0, 0%, 100%);
@@ -158,7 +160,9 @@ a:active {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   background-color: hsl(28, 80%, 45%);
   transform: translateY(-3px);
 }
@@ -447,4 +451,26 @@ cite img {
 .contact-form {
   width: 60%;
   margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 81%);
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
 }
