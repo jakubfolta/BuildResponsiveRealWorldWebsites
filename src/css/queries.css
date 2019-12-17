@@ -51,6 +51,7 @@
     width: 100%;
     margin: 0 0 4% 0;
   }
+
   .main-nav { display: none; }
 
   h1 { font-size: 180%;}
@@ -59,9 +60,12 @@
   .long-copy { width: 100%; }
 
 
-  .works-step { margin-bottom: 20px; }
-  .works-step:last-of-type { margin-bottom: 20px; }
+  .works-step {
+    margin: 0 auto 20px;
+    width: 70%;
   }
+
+  .works-step:last-of-type { margin-bottom: 20px; }
 
   .steps-box:first-child { text-align: center;}
   .app-screen { width: 40%; }
