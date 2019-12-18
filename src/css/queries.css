@@ -80,8 +80,10 @@
 /* Small phones: from 0 to 480px */
 
 @media only screen and (max-width: 480px) {
-  section {padding: 25px 0;}
-  .contact-form {width: 100%;}
-  .footer-nav li { margin-right: 10px;}
+  section {padding: 25px 0; }
+  .contact-form {width: 100%; }
+  .footer-nav li,
+  .footer-nav li:last-child { margin-right: 10px; }
   .social-links { margin: 0 60px; }
+  .social-links li:last-child { margin-right: 20px; }
 }
