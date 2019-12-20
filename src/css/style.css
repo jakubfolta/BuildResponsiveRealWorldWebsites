@@ -197,13 +197,20 @@ header {
   transform: translate(-50%, -50%);
 }
 
-.logo {
+.logo,
+.logo-black {
   height: 100px;
   width: 100px;
   float: left;
   margin-top: 20px;
   margin-left: 10px;
 }
+
+.logo-black {
+  display: none;
+}
+
+/* Main nav */
 
 .main-nav {
   list-style: none;
@@ -234,6 +241,22 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 1px solid hsl(28, 79%, 51%);
+}
+
+/* Sticky nav */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: hsla(0, 0%, 87%, .9);
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 8px 0;
+  color: hsl(0, 0%, 33%);
 }
 
 /******************************************************/
