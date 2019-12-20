@@ -252,7 +252,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: hsla(0, 0%, 87%, .9);
+  background: hsla(0, 0%, 100%, .8);
   box-shadow: 0 2px 2px hsl(0, 0%, 81%);
 }
 
