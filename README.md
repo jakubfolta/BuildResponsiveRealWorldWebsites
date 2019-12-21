@@ -1,10 +1,10 @@
 # Build Responsive Real World Websites
 Basic HTML5 and CSS3 course on Udemy by Jonas Schmedtmann - SOLIDIFYING KNOWLEDGE.
 
-## Check Here ==> 
+## Check Here ==> https://jakubfolta.github.io/BuildResponsiveRealWorldWebsites/
 
 ## Technologies
-* HTML5, CSS3
+* HTML5, CSS3, Animations, jQuery
 
 ## Contact
 Created by Jakub Folta [@betterlifewisdom](https://www.betterlifewisdom.com/) - feel free to contact me!<br/>
