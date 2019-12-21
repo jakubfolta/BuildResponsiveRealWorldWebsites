@@ -62,14 +62,14 @@ $(document).ready(function() {
     offset: '50%'
   })
 
-  $('.js--wp-1').waypoint(function(direction) {
-    $('.js--wp-1').addClass('animated fadeIn');
+  $('.js--wp-3').waypoint(function(direction) {
+    $('.js--wp-3').addClass('animated tada');
   }, {
     offset: '50%'
   })
 
-  $('.js--wp-1').waypoint(function(direction) {
-    $('.js--wp-1').addClass('animated fadeIn');
+  $('.js--wp-4').waypoint(function(direction) {
+    $('.js--wp-4').addClass('animated pulse');
   }, {
     offset: '50%'
   })
