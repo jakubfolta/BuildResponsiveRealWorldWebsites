@@ -254,9 +254,10 @@ header {
   width: 100%;
   background: hsla(0, 0%, 100%, .8);
   box-shadow: 0 2px 2px hsl(0, 0%, 81%);
+  z-index: 9999;
 }
 
-.main-nav {
+.sticky .main-nav {
   margin-top: 18px;
 }
 
