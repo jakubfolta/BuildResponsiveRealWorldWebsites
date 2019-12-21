@@ -595,10 +595,33 @@ footer p {
 /******************************************************/
 
 .js--wp-1 {
-  /* visibility: hidden; */
   opacity: 0;
 }
 
 .js--wp-1.animated {
+  opacity: 1;
+}
+
+.js--wp-2 {
+  opacity: 0;
+}
+
+.js--wp-2.animated {
+  opacity: 1;
+}
+
+.js--wp-3 {
+  opacity: 0;
+}
+
+.js--wp-3.animated {
+  opacity: 1;
+}
+
+.js--wp-4 {
+  opacity: 0;
+}
+
+.js--wp-4.animated {
   opacity: 1;
 }
