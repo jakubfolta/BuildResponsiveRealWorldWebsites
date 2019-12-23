@@ -56,7 +56,7 @@ $(document).ready(function() {
   })
 
   $('.js--wp-2').waypoint(function(direction) {
-    $('.js--wp-2').addClass('animated bounceInUp');
+    $('.js--wp-2').addClass('animated bounceInLeft');
   }, {
     offset: '50%'
   })
